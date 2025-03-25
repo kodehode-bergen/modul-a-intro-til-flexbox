@@ -59,15 +59,15 @@
 
 .first-div {
   max-width: 100svw;
-  height: 200px;
+  height: 100svh;
   background-color: lightcoral;
   display: flex;
   /* flex-direction: column; */
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  /* gap: 20px; */
-  /* flex-wrap: wrap; */
-  flex-flow: row wrap;
+  gap: 100px;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .inner-div {
   max-height: 200px;
@@ -82,3 +82,34 @@
 /* #shrink-div {
   flex-shrink: 1;
 } */
+
+#item1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  order: 3;
+}
+#item2 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  order: 1;
+}
+#item3 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  order: 4;
+}
+#item4 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  order: 5;
+}
+#item5 {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  order: 2;
+}
