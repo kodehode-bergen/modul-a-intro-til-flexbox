@@ -5,16 +5,16 @@
   margin: 0;
 }
 
-body {
+/* body {
   background-color: orange;
   max-width: 100svw;
   max-height: 100svh;
   margin-top: 100px;
   display: flex;
-  justify-content: center;
-  /* align-items: center; */
-}
-.grandparent {
+  justify-content: center; */
+/* align-items: center;
+} */
+/* .grandparent {
   background-color: blue;
   width: 500px;
   height: 500px;
@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   /* gap: 50px; */
-  flex-wrap: nowrap;
+/* flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
 }
@@ -46,13 +46,39 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 /* .child h1 {
   font-size: 8px;
 } */
-.grandchild {
+/* .grandchild {
   background-color: pink;
   border: 2px solid black;
   width: 20px;
   height: 20px;
+} */
+
+.first-div {
+  max-width: 100svw;
+  height: 200px;
+  background-color: lightcoral;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
 }
+.inner-div {
+  max-height: 200px;
+  width: 50px;
+  background-color: white;
+  border: 1px solid black;
+}
+#move-div {
+  flex-shrink: 5;
+  width: 100px;
+}
+/* #shrink-div {
+  flex-shrink: 1;
+} */
